@@ -1,5 +1,7 @@
+interface NavLink { href: string; label: string}
+
 function Nav() {
-  const links =[
+  const links: NavLink[] = [
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
     { href: "#resume", label: "Resume" },
@@ -12,10 +14,12 @@ function Nav() {
       <nav className="flex gap-6">
         {links.map((link) => (
           <a
+            className="hover:text-heading transition-colors duration-200 relative group"
             key={link.href}
             href={link.href}
             >
               {link.label}
+              <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
             </a>
 
           ))}
