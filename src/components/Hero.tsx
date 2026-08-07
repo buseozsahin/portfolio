@@ -43,7 +43,7 @@ function Hero() {
       </div>
 
       <div className="flex gap-2 absolute bottom-16 lg:bottom-11 right-16 lg:right-32">
-        <p className="font-label text-xs uppercase tracking-wider text-body relative">Scroll</p>
+        <p className="font-label text-xs uppercase tracking-wider text-body">Scroll</p>
         <div className="w-[1px] h-8 bg-linear-to-b from-body to-transparent"></div>
       </div>
     </section>

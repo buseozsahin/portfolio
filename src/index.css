@@ -11,3 +11,7 @@
   --font-heading: "Newsreader", serif;
   --font-body: "Inter", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
