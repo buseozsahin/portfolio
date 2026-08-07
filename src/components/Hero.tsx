@@ -42,9 +42,9 @@ function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-40 lg:bottom-11 left-6 lg:left-32">
-        <p className="font-label text-xs uppercase tracking-wider text-body">Scroll</p>
-        <div className="w-px h-8 bg-body"></div>
+      <div className="flex gap-2 absolute bottom-16 lg:bottom-11 right-16 lg:right-32">
+        <p className="font-label text-xs uppercase tracking-wider text-body relative">Scroll</p>
+        <div className="w-[1px] h-8 bg-linear-to-b from-body to-transparent"></div>
       </div>
     </section>
   )
