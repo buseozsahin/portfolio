@@ -4,7 +4,7 @@ function Projects() {
   return(
     <section className="flex flex-col min-h-screen justify-center px-6 lg:px-32" id="projects">
       <div>
-        <p className="text-gold font-label text-sm lg:text-md tracking-wider uppercase">Selected Work</p>
+        <p className="text-gold font-label text-sm lg:text-md tracking-wider uppercase mt-24">Selected Work</p>
         <h1 className="font-heading italic text-heading text-2xl lg:text-5xl mt-4">Things I've built</h1>
         <span className="inline-block w-25 h-px bg-gold"/>
       </div>
@@ -45,7 +45,7 @@ function Projects() {
       
         <ProjectCard
           statusBadge="In Progress"
-          title="Cockatil Web App"
+          title="Cocktail Web App"
           description="Developed a responsive web application, built with React, HTML, CSS, and JavaScript. 
           Integrated a cocktail REST API, allowing users to search and access detailed cocktail information."
           technologies={["JavaScript", "React", "HTML", "CSS", "REST API"]}

@@ -12,9 +12,9 @@ function App() {
       <div>
         <Hero/>
         <span className="inline-block w-full h-px bg-body/20"/>
-        <Skills/>
-        <span className="inline-block w-full h-px bg-body/20"/>
         <Projects />
+        <span className="inline-block w-full h-px bg-body/20"/>
+        <Skills/>
         <span className="inline-block w-full h-px bg-body/20"/>
         <Resume/>
         <span className="inline-block w-full h-px bg-body/20"/>

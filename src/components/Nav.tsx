@@ -2,8 +2,8 @@ interface NavLink { href: string; label: string}
 
 function Nav() {
   const links: NavLink[] = [
-    { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
+    { href: "#skills", label: "Skills/CourseWork" },
     { href: "#resume", label: "Resume" },
     { href: "#contact", label: "Contact" }
   ]

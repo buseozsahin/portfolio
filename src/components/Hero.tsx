@@ -2,17 +2,18 @@ import Button from "./Button";
 
 function Hero() {
   return(
-    <section className="flex flex-col min-h-screen justify-center pt-16 px-6 lg:px-32 relative">
-      <div className="flex items-center gap-2">
-         <span className="w-2 h-2 rounded-full bg-[#5aa06a] shadow-[0_0_8px_#5aa06a]"></span>
-         <span className="font-label text-gold tracking-wider text-sm uppercase">Open to Co-Op and Summer 2027 internships</span>
-      </div>
-     
+    <section className="flex flex-col min-h-screen justify-center pt-16 px-6 lg:px-32 relative">     
       <h1 className="font-heading italic text-heading text-5xl lg:text-8xl mt-4">Buse Ozsahin</h1>
-      <p className="font-heading text-body text-lg lg:text-2xl mt-4">Computer Science Student — Web Developer</p>
+      <div className="flex gap-2">
+        <p className="font-heading text-body text-lg lg:text-2xl mt-4">Computer Science Student - </p>
+        <p className="font-heading text-gold text-lg lg:text-2xl mt-4">Focused on Web Development</p>
+      </div>
+      
       <p className="font-body text-body max-w-md mt-6"
-        >Junior CS student who builds full front to back web products, not just class assignments. 
-        Comfortable with React, TypeScript, JavaScript and Tailwind. Currently expanding into backend and databases.</p>
+        >Junior CS student with a concentration in Web Development. 
+        Passionate about building innovative projects focused on fully responsive web products. 
+        Mostly comfortable with web development skills, but always learning new technologies. 
+       </p>
 
       <div className="flex gap-4 mt-12">
         <Button 

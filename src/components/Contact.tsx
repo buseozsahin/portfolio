@@ -43,7 +43,7 @@ function Contact() {
           className="flex font-label text-xs uppercase tracking-wider text-body hover:text-gold transition-colors mt-16 self-start"
         >
           Click to top
-          <div className="w-[1px] h-8 bg-linear-to-b from-body to-transparent"></div>
+          <div className="w-[1px] h-8 bg-linear-to-b from-body to-transparent ml-2"></div>
         </button>
       </div>
 

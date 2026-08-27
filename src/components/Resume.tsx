@@ -16,7 +16,7 @@ function Resume() {
         </div>
         <Button 
           label="Download PDF"
-          href="/buse-ozsahin-resume.pdf"
+          href="/portfolio/buse-ozsahin-resume.pdf"
           variant="primary"
         />
       </div>
