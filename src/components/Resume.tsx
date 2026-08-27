@@ -14,11 +14,11 @@ function Resume() {
           <h3 className="font-heading italic text-heading text-3xl tracking-wide">Buse Ozsahin - Resume</h3>
           <p className="font-body text-gold text-md mt-2 italic">B.S. Computer Science, expected 2028</p>
         </div>
-        <Button 
-          label="View PDF"
+        <Button
+          label="View"
           href="/portfolio/buse-ozsahin-resume.pdf"
           variant="primary"
-        />
+        ></Button>
       </div>
     </section>
 )
