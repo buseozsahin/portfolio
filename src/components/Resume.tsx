@@ -15,14 +15,11 @@ function Resume() {
           <p className="font-body text-gold text-md mt-2 italic">B.S. Computer Science, expected 2028</p>
         </div>
         <Button 
-          label="Download PDF"
+          label="View PDF"
           href="/portfolio/buse-ozsahin-resume.pdf"
           variant="primary"
         />
       </div>
-
-
-  
     </section>
 )
 }

@@ -5,14 +5,14 @@ function Hero() {
     <section className="flex flex-col min-h-screen justify-center pt-16 px-6 lg:px-32 relative">     
       <h1 className="font-heading italic text-heading text-5xl lg:text-8xl mt-4">Buse Ozsahin</h1>
       <div className="flex gap-2">
-        <p className="font-heading text-body text-lg lg:text-2xl mt-4">Computer Science Student - </p>
+        <p className="font-heading text-body text-lg lg:text-2xl mt-4">B.S. Computer Science Student - </p>
         <p className="font-heading text-gold text-lg lg:text-2xl mt-4">Focused on Web Development</p>
       </div>
       
       <p className="font-body text-body max-w-md mt-6"
         >Junior CS student with a concentration in Web Development. 
         Passionate about building innovative projects focused on fully responsive web products. 
-        Mostly comfortable with web development skills, but always learning new technologies. 
+        Comfortable with web development skills, but always learning new technologies. 
        </p>
 
       <div className="flex gap-4 mt-12">

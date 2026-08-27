@@ -15,10 +15,10 @@ function Skills() {
     { name: "Intro to Software Engineering", semester: "Fall 2025" },
     { name: "Artificial Intelligence", semester: "Spring 2026" },
     { name: "Intro to Database Systems", semester: "Spring 2026" },
-    { name: "Fund of Data Communications", semester: "Spring 2026" },
+    { name: "Fundaentals of Data Communications", semester: "Spring 2026" },
     { name: "Machine Learning", semester: "Fall 2026" },
     { name: "Computer Organization & Architecture", semester: "Fall 2026" },
-    { name: "Algorith Analysis", semester: "Fall 2026" },
+    { name: "Algorithm Analysis", semester: "Fall 2026" },
   ]
 
   return(

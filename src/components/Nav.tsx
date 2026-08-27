@@ -11,7 +11,7 @@ function Nav() {
   return (
     <header className="flex fixed top-0 left-0 right-0 z-50 justify-between text-body font-label text-base tracking-wider 
     px-6 lg:px-32 py-5 uppercase backdrop-blur-md bg-linear-to-b from-bg/90 to-transparent">
-      <p className="text-heading">B. Ozsahin</p>
+      <p className="text-heading">Buse Ozsahin</p>
       <nav className="flex gap-6">
         {links.map((link) => (
           <a
