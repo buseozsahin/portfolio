@@ -17,7 +17,40 @@ function Projects() {
             SentenceTransformers, Streamlit, and Ollama (Llama 3.2) with Fast, Balanced, and Accurate response modes."
           technologies={["Python", "FAISS", "SentenceTransformers", "Streamlit"]}
           links={[
-            { label: "GitHub", href: "https://github.com/buseozsahin/financial_rag_copilot" }
+            { label: "GitHub ↗", href: "https://github.com/buseozsahin/financial_rag_copilot" }
+          ]}
+        />
+
+        <ProjectCard
+          statusBadge="Live"
+          title="Job Finder Web App"
+          description="Developed a responsive web application, built with React, JavaScript, and Tailwind. 
+          Allowing users to search, filter, save, and apply to detailed job opennings."
+          technologies={["JavaScript", "React", "Tailwind"]}
+          links={[
+            { label: "GitHub ↗", href: "https://github.com/buseozsahin/job-finder" }
+          ]}
+        />
+
+        <ProjectCard
+          statusBadge="Live"
+          title="Personal Web Site"
+          description="Built a fully responsive personal portfolio site using React, TypeScript, and Tailwind CSS s, 
+          featuring reusable component architecture, CSS Grid layouts, and smooth-scroll navigation."
+          technologies={["TypeScript", "React", "Tailwind"]}
+          links={[
+            { label: "GitHub ↗", href: "https://github.com/buseozsahin/portfolio" }
+          ]}
+        />
+      
+        <ProjectCard
+          statusBadge="In Progress"
+          title="Cockatil Web App"
+          description="Developed a responsive web application, built with React, HTML, CSS, and JavaScript. 
+          Integrated a cocktail REST API, allowing users to search and access detailed cocktail information."
+          technologies={["JavaScript", "React", "HTML", "CSS", "REST API"]}
+          links={[
+            { label: "GitHub ↗", href: "https://github.com/buseozsahin/Cocktail-React-App" }
           ]}
         />
       </div>

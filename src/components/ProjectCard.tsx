@@ -33,7 +33,10 @@ function ProjectCard({ statusBadge, title, description, technologies, links }: P
             key={link.label}
             href={link.href}
             className="text-heading font-label text-sm border-b border-gold/50 pb-0.5 hover:opacity-70 transition-opacity"
-            >{link.label}</a>
+            >{link.label}
+            <img />
+            </a>
+
         ))}
       </div>
     </section>

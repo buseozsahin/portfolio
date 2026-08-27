@@ -2,10 +2,10 @@ interface SkillCategory { label: string; skills: string[] }
 
 function Skills() {
   const categories: SkillCategory[] = [
-    { label: "Languages", skills: ["Python", "Java", "JavaScript / TypeScript", "SQL"] },
-    { label: "Frameworks", skills: ["React", "Next.js", "Tailwind CSS", "Node.js"] },
-    { label: "Tools", skills: ["Git / GitHub", "Figma", "Vercel", "Postman"] },
-    { label: "Currently Learning", skills: ["PostgreSQL", "Docker", "GraphQL"] }
+    { label: "Languages", skills: ["Python", "Java", "JavaScript", "TypeScript"] },
+    { label: "Frameworks", skills: ["React", "Tailwind", "Bootstrap", "Streamlit", "SentenceTransformers"] },
+    { label: "Tools", skills: ["Git / GitHub", "FAISS", "Ollama (Lalama3.2)"] },
+    { label: "Concepts", skills: ["RAG", "Semantic Search", "RESTful APIs"] },
   ]
 
   return(
