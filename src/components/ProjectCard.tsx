@@ -6,7 +6,7 @@ interface ProjectLinks {
 }
 
 interface ProjectCard {
-  statusBadge: "Live" | "In Progress"
+  statusBadge: "Live" | "In Progress" | "Front-End Ready"
   title: string
   description: string
   technologies: string[]

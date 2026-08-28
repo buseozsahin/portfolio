@@ -22,13 +22,14 @@ function Projects() {
         />
 
         <ProjectCard
-          statusBadge="Live"
+          statusBadge="Front-End Ready"
           title="Job Finder Web App"
           description="Developed a responsive web application, built with React, JavaScript, and Tailwind. 
           Allowing users to search, filter, save, and apply to detailed job opennings."
           technologies={["JavaScript", "React", "Tailwind"]}
           links={[
-            { label: "GitHub ↗", href: "https://github.com/buseozsahin/job-finder" }
+            { label: "GitHub ↗", href: "https://github.com/buseozsahin/job-finder" },
+            { label: "Link ↗", href: "https://buseozsahin.github.io/job-finder/"}
           ]}
         />
 
