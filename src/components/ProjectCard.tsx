@@ -6,7 +6,7 @@ interface ProjectLinks {
 }
 
 interface ProjectCard {
-  statusBadge: "Live" | "In Progress" | "Front-End Ready"
+  statusBadge: "LIVE" | "IN PROGRESS" | "Front-End Ready"
   title: string
   description: string
   technologies: string[]
@@ -16,7 +16,7 @@ interface ProjectCard {
 function ProjectCard({ statusBadge, title, description, technologies, links }: ProjectCard) {
   return(
     <section className="bg-bg relative transition-colors hover:bg-panel p-9">
-      <span className="font-label text-xs uppercase tracking-wider text-[#5aa06a] border border-[#5aa06a]/20 rounded-sm py-1 px-2 absolute right-4 top-4">{statusBadge}</span>
+      <span className="font-label text-xs tracking-wider text-[#5aa06a] border border-[#5aa06a]/20 rounded-sm py-1 px-2 absolute right-4 top-4">{statusBadge}</span>
       <h1 className="font-heading text-heading font-semibold text-2xl mt-4">{title}</h1>
       <p className="font-body text-body text-sm mt-3">{description}</p>
 

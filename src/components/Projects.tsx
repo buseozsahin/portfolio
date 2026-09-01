@@ -11,7 +11,7 @@ function Projects() {
       
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-body/10 border border-body/10 mt-5">
         <ProjectCard
-          statusBadge="Live"
+          statusBadge="LIVE"
           title="Financial RAG Copilot "
           description="Developed a Retrieval-Augmented Generation (RAG) system using Python, FAISS, 
             SentenceTransformers, Streamlit, and Ollama (Llama 3.2) with Fast, Balanced, and Accurate response modes."
@@ -34,7 +34,7 @@ function Projects() {
         />
 
         <ProjectCard
-          statusBadge="Live"
+          statusBadge="LIVE"
           title="Personal Web Site"
           description="Built a fully responsive personal portfolio site using React, TypeScript, and Tailwind CSS s, 
           featuring reusable component architecture, CSS Grid layouts, and smooth-scroll navigation."
@@ -45,7 +45,7 @@ function Projects() {
         />
       
         <ProjectCard
-          statusBadge="In Progress"
+          statusBadge="IN PROGRESS"
           title="Cocktail Web App"
           description="Developed a responsive web application, built with React, HTML, CSS, and JavaScript. 
           Integrated a cocktail REST API, allowing users to search and access detailed cocktail information."
